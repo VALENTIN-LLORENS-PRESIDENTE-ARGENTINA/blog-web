@@ -1,0 +1,167 @@
+html{
+    background-color: #e5ebf3;
+}
+
+
+body { 
+ margin: 0;
+    padding: 0;
+}
+
+
+h1,h2 { 
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.702);
+    
+}
+
+.tittle { padding-top: 20px;
+}
+
+.subtittle { padding-bottom: 20px;
+}
+
+.header { background-color: #6683ac;
+}
+
+
+main { background-color: #dce8f8;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow:#99a4b3 0px 0px 6px ;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify; 
+    
+}
+    
+
+.presentation { text-align: center;
+    text-wrap: pretty; 
+    
+}
+
+ol {padding: 0;}
+
+.horizontal-list {
+   padding-left: 19px;
+   padding-right: 19px;
+   padding-bottom: 9px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+
+
+
+li {list-style-type: none;}
+
+
+.conteiner-valentin {width: 90%;
+    height: 370px;
+    background-color: #6683ac;
+    box-shadow: #000300 0px 0px 10px;
+    box-sizing: border-box;
+    display: flex;
+    
+
+}
+
+.photo-valentin {width: 300px;
+    height: 370px;
+    top: 255px;
+     }
+
+.about-valentin {padding: 5px;
+    text-wrap: balance;
+    text-align: left;
+    margin: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:13px
+}
+
+.contenedor_about-valentin { 
+    margin: auto;
+    width: 700px;
+    height: 280px;
+    border:solid;
+    border-radius: 5px;
+    background-color: #11233c;
+    
+}
+
+.conteiner-nicolas {width: 90%;
+    height: 370px;
+    background-color: #6683ac;
+    box-shadow: #000300 0px 0px 10px;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    
+}
+
+ .photo-nicolas {width: 280wpx;
+    height: 370px;
+    
+}
+.about-nicolas{
+    text-wrap:balance;
+    margin:0;
+    padding: 0;
+    color: white;
+
+}
+
+.contenedor_about-nicolas{
+    height: 280px;
+    width: 650px;
+    margin: auto;
+    padding: 10px;
+    border: solid 4px;
+    border-radius: 10px;
+    background-color: #11233c;
+    border: #062046;
+    box-shadow: #000300 0px 0px 20px;
+    
+}
+
+.conteiner-imgs {display: flex;
+    background-color: #062046;
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+
+
+}
+
+.img_skill {
+    width: 450px;
+    height: 450px;
+    padding: 80px;
+    border-radius: 100%;
+ 
+}
+
+.skills_grid{
+    display: grid;
+    background-color: #6683ac;
+    grid-template-columns: 20% 20% 20% ;
+    margin-top: 30px;
+    
+    
+}
+
+.skill-grid-item {
+    margin: 10px;
+    padding: 10px;
+    padding:
+}
